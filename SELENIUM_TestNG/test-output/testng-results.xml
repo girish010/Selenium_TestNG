@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="213" started-at="2019-08-24T02:44:24Z" finished-at="2019-08-24T02:44:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="213" started-at="2019-08-24T02:44:24Z" finished-at="2019-08-24T02:44:24Z">
+      <class name="TestNG_InitCount.Sampel">
+        <test-method status="PASS" signature="invocationcount()[pri:0, instance:TestNG_InitCount.Sampel@28d25987]" name="invocationcount" duration-ms="30" started-at="2019-08-24T02:44:24Z" finished-at="2019-08-24T02:44:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invocationcount -->
+        <test-method status="PASS" signature="invocationcount()[pri:0, instance:TestNG_InitCount.Sampel@28d25987]" name="invocationcount" duration-ms="19" started-at="2019-08-24T02:44:24Z" finished-at="2019-08-24T02:44:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invocationcount -->
+        <test-method status="PASS" signature="invocationcount()[pri:0, instance:TestNG_InitCount.Sampel@28d25987]" name="invocationcount" duration-ms="13" started-at="2019-08-24T02:44:24Z" finished-at="2019-08-24T02:44:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invocationcount -->
+        <test-method status="PASS" signature="invocationcount()[pri:0, instance:TestNG_InitCount.Sampel@28d25987]" name="invocationcount" duration-ms="5" started-at="2019-08-24T02:44:24Z" finished-at="2019-08-24T02:44:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invocationcount -->
+        <test-method status="PASS" signature="invocationcount()[pri:0, instance:TestNG_InitCount.Sampel@28d25987]" name="invocationcount" duration-ms="11" started-at="2019-08-24T02:44:24Z" finished-at="2019-08-24T02:44:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invocationcount -->
+      </class> <!-- TestNG_InitCount.Sampel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

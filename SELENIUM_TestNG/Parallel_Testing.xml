@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="USerLogins" parallel="tests">
+	<test name="ChromeTest">
+		<parameter name="Keys" value="webdriver.chrome.driver" />
+		<parameter name="Values" value="./Drivers/chromedriver.exe" />
+		<parameter name="Browser" value="chrome" />
+		<parameter name="url" value="http://mykidsbank.org" />
+		
+		<parameter name="BankerID" value="50092" />
+		<parameter name="UserName" value="banker" />
+		<parameter name="Password" value="girish010" />
+		
+		 <classes>
+ 			<class name="TestNG_Parameters.Login_To_User_Account" />
+ 		</classes>
+ 	</test>
+ 	<test name="FireFoxTest">
+		<parameter name="Keys" value="webdriver.gecko.driver" />
+		<parameter name="Values" value="./Drivers/geckodriver.exe" />
+		<parameter name="Browser" value="firefox" />
+		<parameter name="url" value="http://mykidsbank.org" />
+		
+		<parameter name="BankerID" value="50092" />
+		<parameter name="UserName" value="banker" />
+		<parameter name="Password" value="girish010" />
+		
+		 <classes>
+ 			<class name="TestNG_Parameters.Login_To_User_Account" />
+ 		</classes>
+ 	</test>	
+ 	
+ </suite>

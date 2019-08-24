@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="TestNG_Parameters.TestNG_Parameters_Passing">
+        <methods>
+          <include name="close_browser"/>
+          <include name="Verify_Logedin_Page"/>
+          <include name="user_Login"/>
+          <include name="Verify_LoginPage"/>
+          <include name="enter_url"/>
+          <include name="user_Logout"/>
+        </methods>
+      </class> <!-- TestNG_Parameters.TestNG_Parameters_Passing -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
